@@ -1,7 +1,7 @@
 # 🦠 COVID-19 Data Analysis Project  
 
 ## 📌 Overview  
-This project focuses on analyzing global COVID-19 data to explore patterns, trends, and correlations across time, countries, and regions. Using Python, pandas, and visualization libraries, the project is divided into multiple activities — each designed to highlight different aspects of the pandemic, such as worldwide impact, regional differences, time series trends, and external influencing factors.  
+This project focuses on analyzing global COVID-19 data to explore patterns, trends, and correlations across time, countries, and regions. Using Python, pandas, and visualization libraries, the project is divided into multiple activities each designed to highlight different aspects of the pandemic, such as worldwide impact, regional differences, time series trends, and external influencing factors.  
 
 ---
 
