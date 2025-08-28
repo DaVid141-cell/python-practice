@@ -3,7 +3,6 @@
 import pandas as pd
 covid = pd.read_csv("covid-data.csv")
 df = pd.DataFrame(covid)
-## df['ColumnName'] = df['ColumnName'].fillna(df['ColumnName'].mean())
 # First Clean up the dataset that has missing value in columns by doing len(df) * 0.9/90%
 valid_values = len(df) * 0.9
 df = df.dropna(axis=1, thresh=valid_values) # thresh=valid_values means "keep only columns with at least 90% non-missing values." 

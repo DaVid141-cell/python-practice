@@ -9,7 +9,6 @@ df = pd.DataFrame(covid)
 # 1. Visualize the WHO Regions with total COVID-19 cases and total deaths by using bar plots.
 who_regions = df.groupby('continent')[['total_cases', 'total_deaths']].sum().reset_index()
 
-
 #Bar plot for total cases
 sns.barplot(x='continent', y='total_cases', data=who_regions)
 plt.title('Total number of cases in WHO regions')
@@ -48,6 +47,7 @@ corr = corr_total.corr(numeric_only=True)
 sns.heatmap(corr, annot=True, linewidths=0.5)
 plt.title('HeatMap Correlation of total cases and total deaths')
 plt.show()
+
 # 4. Analyze how total cases have evolved over time for a specific locations
 s_location = input('Select a location to Analyze: ')
 
